@@ -7,9 +7,9 @@ MAINTAINER Thomas Ingvarsson <ingvarsson.thomas@gmail.com>
 
 ENV CSGO_DIR $HOME/csgo
 
-ADD start.sh $CSGO_DIR/start.sh
+ADD start.sh $HOME/start.sh
 
-WORKDIR $CSGO_DIR
+WORKDIR $HOME
 
 EXPOSE 27015
 
