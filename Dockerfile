@@ -3,7 +3,7 @@
 # Version 1.0.0
 
 FROM tingvarsson/steamcmd:latest
-MAINTAINER Thomas Ingvarsson <ingvarsson.thomas@gmail.com>
+LABEL maintainer Thomas Ingvarsson <ingvarsson.thomas@gmail.com>
 
 ENV CSGO_DIR $HOME/csgo
 
