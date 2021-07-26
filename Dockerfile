@@ -1,5 +1,3 @@
-# Counter-Strike Global Offensive Dedicated Server
-
 FROM tingvarsson/steamcmd:latest
 LABEL maintainer Thomas Ingvarsson <ingvarsson.thomas@gmail.com>
 
