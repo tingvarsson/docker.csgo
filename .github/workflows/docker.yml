@@ -12,10 +12,13 @@ on:
 
   # Nightly to capture latest base image
   schedule:
-    - cron:  '* 22 * * *'
+    - cron: "* 22 * * *"
 
   # Run tests for any PRs.
   pull_request:
+
+  # Allow to trigger manually from github ui
+  workflow_dispatch:
 
 jobs:
   dockerhub-registry:
